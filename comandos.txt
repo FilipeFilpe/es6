@@ -1,0 +1,25 @@
+yarn init ------------------------- cria o package.json
+yarn add @babel/core --------------- 
+yarn add @babel/cli --------------- linha de comando do Babel
+yarn add @babel/preset-env -------- entende o ambiente(no caso browser, pode tbm ser node, angular, etc) Babel
+
+yarn add @babel/plugin-proposal-object-rest-spread
+
+"dev": "babel ./main.js -o ./bundle.js -w"
+"dev": "webpack --mode=development -w"
+
+criar config babel .babelrc
+
+WEBPACK -------------- serve para trabalhar com vários arquivos JS
+yarn add webpack webpack-cli -D 
+criar config webpack webpack.config.js
+
+yarn add babel-loader -D
+
+yarn add webpack-dev-server -D
+
+yarn add @babel/plugin-transform-async-to-generator
+
+yarn add @babel/polyfill -D
+
+yarn add axios
